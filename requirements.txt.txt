@@ -1,5 +1,6 @@
-numpy
-pandas
-numpy-finanace
 streamlit
-streamlit_option_menu
+streamlit-option-menu
+pandas
+numpy
+matplotlib
+seaborn
