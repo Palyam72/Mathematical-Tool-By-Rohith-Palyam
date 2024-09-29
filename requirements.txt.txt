@@ -1,0 +1,5 @@
+numpy
+pandas
+numpy-finanace
+streamlit
+streamlit-option-menu
