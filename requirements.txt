@@ -3,4 +3,3 @@ numpy
 numpy-financial
 pandas
 streamlit
-streamlit-option-menu
