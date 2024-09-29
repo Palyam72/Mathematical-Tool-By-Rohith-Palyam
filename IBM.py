@@ -718,7 +718,7 @@ class Trigonometry:
         elif Type == "TANGENT INVERSE":
             new_dataFrame[f"{column_name}-{Type}"] = np.arctan(np.deg2rad(select_col))
         elif Type == "COTANGENT INVERSE":
-            new_dataFrame[f"{column_name}-{Type}"] = np.arccot(np.deg2rad(select_col))
+            new_dataFrame[f"{column_name}-{Type}"] = np.arccos(np.deg2rad(select_col))/np.arcsin(np.deg2rad(select_col))
         elif Type == "SECANT INVERSE":
             new_dataFrame[f"{column_name}-{Type}"] = np.arccos(1 / np.deg2rad(select_col))
         elif Type == "COSECANT INVERSE":
