@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from streamlit_option_menu import option_menu
 import chardet
 import numpy_financial as npf
 
@@ -1707,7 +1706,8 @@ if file:
     # Read CSV using the detected encoding
     dataset = pd.read_csv(file, encoding=encoding)
     with st.sidebar:
-        options=option_menu("Choose The Functionality",["Basic Mathematical Operations","Descriptive Statistics","Linear Algebra","Trignometric Functions","Financial Functions"],orientation="horizontal")
+        st.subheader("select any one area")
+        options=st.radio("Choose The Functionality",["Basic Mathematical Operations","Descriptive Statistics","Linear Algebra","Trignometric Functions","Financial Functions"])
 
     if options=="Descriptive Statistics":
         Descriptive(dataset).layout()
