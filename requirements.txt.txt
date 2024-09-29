@@ -1,6 +1,6 @@
-chardet==5.2.0
-numpy==2.1.1
-numpy_financial==1.0.0
-pandas==2.2.3
-streamlit==1.38.0
-streamlit_option_menu==0.3.13
+chardet
+numpy
+numpy-financial
+pandas
+streamlit
+streamlit-option-menu
